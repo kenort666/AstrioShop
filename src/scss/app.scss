@@ -1,0 +1,43 @@
+@import '_fonts';
+@import './components/variables';
+@import 'libs/normalize';
+@import 'components/_all';
+
+body {
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+.wrapper {
+	// width: calc(100vw - 100px);
+	padding: 0px 35px;
+	@media (max-width: 1250px) {
+		padding: 0px 20px;
+	}
+	@media (max-width: 500px) {
+		padding: 0px 20px;
+	}
+	height: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 10px;
+	max-width: 1400px;
+	@media (max-width: 1200px) {
+		max-width: 900px;
+	}
+	@media (max-width: 972px) {
+		max-width: 768px;
+	}
+}
+
+.Home {
+	display: flex;
+	padding-top: 50px;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}

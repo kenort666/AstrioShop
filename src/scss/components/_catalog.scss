@@ -1,0 +1,121 @@
+.catalog__title {
+	margin-bottom: 18px;
+}
+
+.content {
+	padding-left: 40px;
+	@media (max-width: 420px) {
+		padding-left: 15px;
+	}
+}
+// ProductBlock
+
+.productBlock {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 3vw;
+	padding-bottom: 15px;
+
+	@media (max-width: 972px) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	@media (max-width: 750px) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@media (max-width: 600px) {
+		grid-template-columns: 1fr;
+	}
+}
+
+// Products
+.products {
+	// .products__image
+	&__image {
+		img {
+			max-width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	&__error {
+		font-size: 45px;
+		margin-left: 30px;
+	}
+
+	// .products__title
+	&__title {
+		font-size: 18px;
+		font-weight: 600;
+	}
+	// .products__price
+	&__price {
+		font-weight: 600;
+	}
+
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__btn {
+		appearance: none;
+		background-color: #000000;
+		border: 2px solid #1a1a1a;
+		border-radius: 15px;
+		box-sizing: border-box;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: normal;
+		margin: 0;
+		min-width: 0;
+		outline: none;
+		padding: 10px 10px;
+		text-align: center;
+		text-decoration: none;
+		transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+		will-change: transform;
+		display: flex;
+		align-items: center;
+
+		&:disabled {
+			pointer-events: none;
+		}
+
+		&:hover {
+			box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			box-shadow: none;
+			transform: translateY(0);
+		}
+
+		&--plusItem {
+			color: white;
+			background-color: grey;
+			margin-left: 5px;
+			border-radius: 50%;
+			border: 1px solid grey;
+			width: 20px;
+			height: 20px;
+			align-items: center;
+		}
+
+		@media (max-width: 1200px) {
+			padding: 7px 7px;
+			font-size: 15px;
+			margin-left: 7px;
+		}
+	}
+}
