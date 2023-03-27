@@ -10,6 +10,7 @@ Stack: React.js, Redux-toolkit, React-router-dom, TypeScript, Axios, Classnames 
 ![secondPhoto](https://i.ibb.co/brmbs26/2.png)
 
 How to launch:
-1.Download or clone the project
-2.Install dependencies (npm install or yarn)
+1. Download or clone the project
+2. Install dependencies (npm install or yarn)
 3.
+
