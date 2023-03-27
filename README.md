@@ -12,5 +12,6 @@ Stack: React.js, Redux-toolkit, React-router-dom, TypeScript, Axios, Classnames 
 How to launch:
 1. Download or clone the project
 2. Install dependencies (npm install or yarn)
-3.
+3. Initiate server by npm run server or yarn server
+4. Run the project by npm run start or yarn start
 
