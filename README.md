@@ -5,7 +5,7 @@ First e-shop on react.js
 
 Stack: React.js, Redux-toolkit, React-router-dom, TypeScript, Axios, Classnames For React,  SCSS, etc.
 
-(https://i.ibb.co/MnGkjkm/3.png)
+![firstPhoto](https://i.ibb.co/MnGkjkm/3.png)
 
 How to launch:
 1.Download or clone the project
